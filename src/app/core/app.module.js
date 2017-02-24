@@ -12,16 +12,16 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var forms_1 = require('@angular/forms');
 var http_1 = require('@angular/http');
-var app_routing_module_1 = require('./app-routing.module');
+var app_routing_module_1 = require('../routing/app-routing.module');
 //import for loading & configuring the in-memory web api
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
-var in_memory_data_service_1 = require('./in-memory-data.service');
+var in_memory_data_service_1 = require('../util-service/in-memory-data.service');
 var app_component_1 = require('./app.component');
-var dashboard_component_1 = require('./dashboard.component');
-var hero_detail_component_1 = require('./hero-detail.component');
-var heroes_component_1 = require('./heroes.component');
-var hero_service_1 = require('./hero.service');
-var hero_search_component_1 = require('./hero-search.component');
+var dashboard_component_1 = require('../dashboard/dashboard.component');
+var hero_detail_component_1 = require('../hero-detail/hero-detail.component');
+var heroes_component_1 = require('../hero/heroes.component');
+var hero_service_1 = require('../hero/hero.service');
+var hero_search_component_1 = require('../hero-search/hero-search.component');
 var AppModule = (function () {
     function AppModule() {
     }
